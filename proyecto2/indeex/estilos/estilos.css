@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+body{
+	background-color: #02010a;
+	  font-family: 'Dancing Script';
+		margin:0;
+}
+
+.contenedor {
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 900px){
+  .contenedor {
+		width: 900px;
+
+	}
+	.cabezera nav{
+		text-align: right;
+	}
+	
+}
+
+
+@media (max-width:899px){
+  .contenedor{
+		width: 100%;
+	}
+
+	#cont2 {
+	    display: flex;
+	    flex-direction: column;
+		width: 100%
+
+	}
+	#cont2 img{
+
+		width: 90%;
+		margin: 5%;
+		padding-left: 0px;
+	}
+
+	#cont1 img {
+		width: 75%;
+		margin: 15px;
+
+	}
+	
+	 #piedepagina {
+	 		display: flex;
+		flex-direction: column;
+	 }
+	 .cabezera h2{
+	 text-align: center;
+	 }
+
+	 .cabezera nav {
+	 	text-align: center;
+	 }
+
+}
+.cabezera {
+	
+  height: 150px;
+	background-color: #5b7989;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin: 0 auto;
+}
+
+.cabezera h2 {
+	margin-left : 10px;
+   
+  text-shadow: 2px 0px 0px #02010a;
+
+
+
+}
+
+
+.cabezera  nav ul {
+	margin: 10px;
+	list-style: none;
+
+
+
+}
+.cabezera nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+.cabezera nav ul li {
+	display: inline;
+	margin: 0;
+
+}
+
+
+html {
+
+	animation: slidemove 1s;
+
+}
+
+@-webkit-keyframes slidemove {
+	0% {
+	 margin-top: 150%;
+	}
+	25% {
+		margin-top: -5%;
+	}
+	100% {
+		margin-top: 0%;
+	}
+}
+
+
+
+
+
+
+#imginicio {
+	width: 75%;
+	box-shadow: 2px 0px 0px #02010a;
+}
+
+
+#cont1 {
+	background-color:  #82c3a6;
+	margin: 0 auto;
+}
+
+#imginicio {
+	width: 75%;
+}
+#cont2 {
+
+	background: #d5c75f;
+	display: flex;
+	margin: 0 auto;
+
+}
+
+
+
+ #i1 {
+ 	padding-left: 15px;
+ 	width: 45%;
+ 	height: 45%;
+ 	transition-property: transform;
+ 	box-shadow: 1px 0px 0px #02010a;
+
+ }
+
+#i1:hover {
+	transform: rotate(-10deg);
+}
+
+
+ #i2 {
+ 	width: 45%;
+ 	height: 45%;
+ 	margin-left: 30px;
+ 	transition-property: margin-left margin-top;
+    box-shadow: 2px 0px 0px #02010a;
+ }
+
+ #i2:hover {
+ 	margin-left: -5px;
+ 	margin-top: -20px;
+ }
+
+
+
+
+
+ #piedepagina {
+
+ 	background-color: #C6d5c5;
+ 	margin-bottom: 5%;
+ 	border-bottom-left-radius: 10px;
+ 	border-bottom-right-radius: 10px;
+ 	display: flex;
+	margin: 0 auto;
+ }
+
+ #piedepagina div {
+ 	margin-left: 2%
+ 	width: 25%;
+	padding-left: 2%;
+
+ }
+
+ #piedepagina ul {
+ 	display: inline;
+ 	list-style: none;
+
+ }
+
+ #im1 {
+ 	padding-left: 15px;
+ 	width: 25%;
+ 	height: 30%;
+ 	-webkit-filter:blur 30px;
+ 	filter: blur(30px);
+ }
+
+
+
+ #im2 {
+ 	width: 25%;
+ 	height: 30%;
+ 	margin-left: 30px;
+	-webkit-filter:grayscale 100%;
+    filter: grayscale(100%);
+ }
+
+
+#im3
+ {
+  width: 25%;
+  height: 30%;
+  margin-left: 30px;
+  -webkit-filter:sepia 100%;
+    filter: sepia(100%);
+ }
+
+ #im4 {
+ 	padding-left: 15px;
+ 	width: 25%;
+ 	height: 30%;
+ 	-webkit-filter:grayscale 100%;
+    filter: grayscale(100%);
+ }
+
+
+
+ #im5 {
+ 	width: 25%;
+ 	height: 30%;
+ 	margin-left: 30px;
+
+ }
+
+
+#im6
+ {
+  width: 25%;
+  height: 30%;
+  margin-left: 30px;
+	-webkit-filter:grayscale 100%;
+    filter: grayscale(100%);
+ }
+
+
+.paisajes img {
+    width: 25%;
+    height: 28%;
+    margin: 17px;
+
+}
